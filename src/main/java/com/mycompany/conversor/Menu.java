@@ -16,20 +16,22 @@ public class Menu extends javax.swing.JFrame {
     public Menu() {
         initComponents();
 
-        jComboBox1.addItem("SOL:PER");
+        jComboBox1.addItem("Sol Peruano");
         jComboBox1.addItem("Dolar");
         jComboBox1.addItem("Euro");
         jComboBox1.addItem("Libra Esterlina");
         jComboBox1.addItem("Yen Japones");
         jComboBox1.addItem("Won Soul-Coreano");
 
-        jComboBox2.addItem("SOL:PER");
+        jComboBox2.addItem("Sol Peruano");
         jComboBox2.addItem("Dolar");
         jComboBox2.addItem("Euro");
         jComboBox2.addItem("Libra Esterlina");
         jComboBox2.addItem("Yen Japones");
         jComboBox2.addItem("Won Soul-Coreano");
-
+        if (jTextField2.hasFocus() == true) {
+       jTextField3.setVisible(true);
+        }
     }
 
     /**
@@ -129,6 +131,12 @@ public class Menu extends javax.swing.JFrame {
         );
 
         jPanel5.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
+
+        jTextField2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField2ActionPerformed(evt);
+            }
+        });
 
         jLabel2.setText("Tipo de Cambio");
 
@@ -249,6 +257,11 @@ public class Menu extends javax.swing.JFrame {
     private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox1ActionPerformed
+
+    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
+
+  // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField2ActionPerformed
 
     /**
      * @param args the command line arguments
