@@ -73,7 +73,11 @@
                   <Component id="jButton2" min="-2" max="-2" attributes="0"/>
                   <EmptySpace pref="12" max="32767" attributes="0"/>
                   <Component id="jTabbedPane1" max="-2" attributes="0"/>
+<<<<<<< HEAD
+                  <EmptySpace max="32767" attributes="0"/>
+=======
                   <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+>>>>>>> b99ddec23cb4f47a6143cefc1c07d226220fb5e9
               </Group>
           </Group>
         </DimensionLayout>
@@ -111,7 +115,15 @@
                 </DimensionLayout>
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
                       <EmptySpace min="0" pref="232" max="32767" attributes="0"/>
+=======
+<<<<<<< HEAD
+                      <EmptySpace min="0" pref="248" max="32767" attributes="0"/>
+=======
+                      <EmptySpace min="0" pref="203" max="32767" attributes="0"/>
+>>>>>>> b99ddec23cb4f47a6143cefc1c07d226220fb5e9
+>>>>>>> dd90b450181f42eb8397fda955e4df47c4159521
                   </Group>
                 </DimensionLayout>
               </Layout>
@@ -133,7 +145,15 @@
                 </DimensionLayout>
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
                       <EmptySpace min="0" pref="232" max="32767" attributes="0"/>
+=======
+<<<<<<< HEAD
+                      <EmptySpace min="0" pref="248" max="32767" attributes="0"/>
+=======
+                      <EmptySpace min="0" pref="203" max="32767" attributes="0"/>
+>>>>>>> b99ddec23cb4f47a6143cefc1c07d226220fb5e9
+>>>>>>> dd90b450181f42eb8397fda955e4df47c4159521
                   </Group>
                 </DimensionLayout>
               </Layout>
@@ -161,7 +181,21 @@
                               <Component id="jButton1" alignment="2" min="-2" max="-2" attributes="0"/>
                               <Component id="jPanel6" alignment="2" min="-2" max="-2" attributes="0"/>
                           </Group>
+<<<<<<< HEAD
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jTextField2" pref="129" max="32767" attributes="0"/>
+                              <Component id="jTextField3" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="32" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" pref="158" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+=======
                           <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+>>>>>>> b99ddec23cb4f47a6143cefc1c07d226220fb5e9
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -173,11 +207,28 @@
                               <Component id="jPanel5" min="-2" max="-2" attributes="0"/>
                               <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
                           </Group>
+<<<<<<< HEAD
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jComboBox2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextField3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="42" max="32767" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" pref="64" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+=======
                           <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
                           <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+<<<<<<< HEAD
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
+=======
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+>>>>>>> b99ddec23cb4f47a6143cefc1c07d226220fb5e9
+>>>>>>> dd90b450181f42eb8397fda955e4df47c4159521
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -230,6 +281,15 @@
                   <SubComponents>
                     <Component class="javax.swing.JComboBox" name="jComboBox1">
                       <Properties>
+<<<<<<< HEAD
+                        <Property name="columns" type="int" value="20"/>
+                        <Property name="rows" type="int" value="5"/>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="null"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="requestFocusEnabled" type="boolean" value="false"/>
+=======
                         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
                           <StringArray count="0"/>
                         </Property>
@@ -305,6 +365,7 @@
                     <Component class="javax.swing.JLabel" name="jLabel2">
                       <Properties>
                         <Property name="text" type="java.lang.String" value="Tipo de Cambio"/>
+>>>>>>> b99ddec23cb4f47a6143cefc1c07d226220fb5e9
                       </Properties>
                     </Component>
                   </SubComponents>
