@@ -29,8 +29,8 @@ public class Menu extends javax.swing.JFrame {
         jComboBox2.addItem("Libra Esterlina");
         jComboBox2.addItem("Yen Japones");
         jComboBox2.addItem("Won Soul-Coreano");
-        if (jTextField2.hasFocus() == true) {
-       jTextField3.setVisible(true);
+        if (txt_c1.hasFocus() == true) {
+       txt_c2.setVisible(true);
         }
     }
 
@@ -54,12 +54,12 @@ public class Menu extends javax.swing.JFrame {
         jComboBox2 = new javax.swing.JComboBox<>();
         jLabel1 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
-        jTextField2 = new javax.swing.JTextField();
-        jTextField3 = new javax.swing.JTextField();
+        txt_c1 = new javax.swing.JTextField();
+        txt_c2 = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
         jPanel6 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
-        jTextPane1 = new javax.swing.JTextPane();
+        txt_resultado = new javax.swing.JTextPane();
         jButton2 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -138,9 +138,9 @@ public class Menu extends javax.swing.JFrame {
 
         jPanel5.setBorder(javax.swing.BorderFactory.createTitledBorder(""));
 
-        jTextField2.addActionListener(new java.awt.event.ActionListener() {
+        txt_c1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField2ActionPerformed(evt);
+                txt_c1ActionPerformed(evt);
             }
         });
 
@@ -154,8 +154,8 @@ public class Menu extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.CENTER)
                     .addComponent(jLabel2)
-                    .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txt_c1, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txt_c2, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel5Layout.setVerticalGroup(
@@ -163,16 +163,16 @@ public class Menu extends javax.swing.JFrame {
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addComponent(jLabel2)
                 .addGap(5, 5, 5)
-                .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(txt_c1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jTextField3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(txt_c2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(22, Short.MAX_VALUE))
         );
 
         jPanel6.setBorder(javax.swing.BorderFactory.createTitledBorder("Total"));
 
-        jTextPane1.setEditable(false);
-        jScrollPane2.setViewportView(jTextPane1);
+        txt_resultado.setEditable(false);
+        jScrollPane2.setViewportView(txt_resultado);
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -276,14 +276,22 @@ public class Menu extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox1ActionPerformed
 
-    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
+    private void txt_c1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txt_c1ActionPerformed
 
   // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField2ActionPerformed
+    }//GEN-LAST:event_txt_c1ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
         
+        int n1, n2, divisa;
+        //double divisa;
+        
+        n1= Integer.parseInt(txt_c1.getText())  ;
+         n2= Integer.parseInt(txt_c2.getText())  ;
+         
+         divisa=n1*n2;
+        txt_resultado.setText(String.valueOf(divisa));
+         
         
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -341,9 +349,9 @@ this.dispose();        // TODO add your handling code here:
     private javax.swing.JPanel jPanel6;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTabbedPane jTabbedPane1;
-    private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextField jTextField3;
-    private javax.swing.JTextPane jTextPane1;
     private javax.swing.JPanel pUno;
+    private javax.swing.JTextField txt_c1;
+    private javax.swing.JTextField txt_c2;
+    private javax.swing.JTextPane txt_resultado;
     // End of variables declaration//GEN-END:variables
 }

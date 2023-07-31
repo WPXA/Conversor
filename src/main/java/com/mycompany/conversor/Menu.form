@@ -274,8 +274,8 @@
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="2" attributes="0">
                                   <Component id="jLabel2" alignment="2" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jTextField2" alignment="2" min="-2" pref="129" max="-2" attributes="0"/>
-                                  <Component id="jTextField3" alignment="2" min="-2" pref="129" max="-2" attributes="0"/>
+                                  <Component id="txt_c1" alignment="2" min="-2" pref="129" max="-2" attributes="0"/>
+                                  <Component id="txt_c2" alignment="2" min="-2" pref="129" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace max="32767" attributes="0"/>
                           </Group>
@@ -286,21 +286,21 @@
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
-                              <Component id="jTextField2" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_c1" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="jTextField3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txt_c2" min="-2" max="-2" attributes="0"/>
                               <EmptySpace pref="22" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
                   </Layout>
                   <SubComponents>
-                    <Component class="javax.swing.JTextField" name="jTextField2">
+                    <Component class="javax.swing.JTextField" name="txt_c1">
                       <Events>
-                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField2ActionPerformed"/>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_c1ActionPerformed"/>
                       </Events>
                     </Component>
-                    <Component class="javax.swing.JTextField" name="jTextField3">
+                    <Component class="javax.swing.JTextField" name="txt_c2">
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel2">
                       <Properties>
@@ -346,7 +346,7 @@
 
                       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                       <SubComponents>
-                        <Component class="javax.swing.JTextPane" name="jTextPane1">
+                        <Component class="javax.swing.JTextPane" name="txt_resultado">
                           <Properties>
                             <Property name="editable" type="boolean" value="false"/>
                           </Properties>
